@@ -1,0 +1,17 @@
+﻿<Window x:Class="op2_d12_grotta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:op2_d12_grotta"
+        mc:Ignorable="d"
+        Title="Välkommen till grottan!" Height="400" Width="600" KeyUp="ApplicationKeyPress">
+    <Grid>
+        <TextBlock x:Name="Title" Height="27" Margin="10,10,0,0" Text="Titel" Width="270" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontFamily="Lucida Console"/>
+        <TextBlock x:Name="StoryField" Margin="10,40,100,15" Text="Text" Width="270" HorizontalAlignment="Left" VerticalAlignment="Stretch" FontSize="14" FontFamily="Lucida Console"/>
+        <Image x:Name="MainImage" HorizontalAlignment="Right" Margin="0,10,10,10" VerticalAlignment="Stretch" Width="300"/>
+
+        <TextBlock x:Name="KeyPressDisplay" Width="270" HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" Text="Knapptryck:" VerticalAlignment="Bottom" FontFamily="Lucida Console"/>
+    </Grid>
+</Window>
+
